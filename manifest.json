@@ -27,7 +27,7 @@
     "multi_instance": true,
     "services": [
         "nginx",
-        "php8-fpm",
+        "php8-fpm"
         
     ],
     "arguments": {
