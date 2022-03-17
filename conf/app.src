@@ -1,7 +1,7 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/kmvan/x-prober/raw/master/dist/prober.php
+SOURCE_SUM=0fea147396c0c8147c509ea3d3382adb53aa88a50e81ff9f60fc7f35191ef1a0
 SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=
-SOURCE_EXTRACT=true
+SOURCE_FORMAT=php
+SOURCE_IN_SUBDIR=false
+SOURCE_FILENAME=prober.php
+SOURCE_EXTRACT=false
