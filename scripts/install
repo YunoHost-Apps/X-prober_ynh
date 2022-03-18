@@ -27,6 +27,7 @@ ynh_abort_if_errors
 domain=$YNH_APP_ARG_DOMAIN
 path_url=$YNH_APP_ARG_PATH
 is_public=$YNH_APP_ARG_IS_PUBLIC
+phpversion=$YNH_APP_ARG_PHPVERSION
 
 
 ### If it's a multi-instance app, meaning it can be installed several times independently
@@ -69,6 +70,20 @@ ynh_script_progression --message="Storing installation settings..." --time --wei
 
 ynh_app_setting_set --app=$app --key=domain --value=$domain
 ynh_app_setting_set --app=$app --key=path --value=$path_url
+ynh_app_setting_set --app=$app --key=phpversion --value=$phpversion
+
+#=================================================
+# STANDARD MODIFICATIONS
+#=================================================
+# INSTALL DEPENDENCIES
+#=================================================
+
+if [ $phpversion != "none" ]
+then
+    ynh_script_progression --message="Installing dependencies..." --weight=2
+
+    ynh_install_app_dependencies "php${phpversion}-fpm"
+fi
 
 #=================================================
 # STANDARD MODIFICATIONS
@@ -112,6 +127,13 @@ ynh_script_progression --message="Configuring NGINX web server..." --time --weig
 
 ### `ynh_add_nginx_config` will use the file conf/nginx.conf
 
+if [ $phpversion != "none" ]
+then
+    cp ../conf/nginx{_with_php,}.conf
+else
+    cp ../conf/nginx{_no_php,}.conf
+fi
+
 # Create a dedicated NGINX config
 ynh_add_nginx_config
 
@@ -132,7 +154,7 @@ ynh_script_progression --message="Configuring PHP-FPM..." --time --weight=1
 ###		- And the section "PHP-FPM CONFIGURATION" in the upgrade script
 
 # Create a dedicated PHP-FPM config
-ynh_add_fpm_config
+ynh_add_fpm_config --usage=low --footprint=low --phpversion=$phpversion
 
 #=================================================
 # SPECIFIC SETUP
