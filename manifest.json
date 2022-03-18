@@ -56,7 +56,7 @@
                 "type": "boolean",
                 "default": false,
                 "help": {
-                    "en": "You should leave it private"
+                    "en": "You should leave it private",
                     "fr": "Vous devriez le laisser privé"
                          }
             }
