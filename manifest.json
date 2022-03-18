@@ -12,8 +12,7 @@
         "license": "GPL-3.0",
         "website": "https://prober.inn-studio.com/",
         "demo": "https://prober.inn-studio.com/",
-        "admindoc": "https://yunohost.org/packaging_apps",
-        "userdoc": "https://yunohost.org/apps",
+        "userdoc": "https://github.com/kmvan/x-prober",
         "code": "https://github.com/kmvan/x-prober"
     },
     "license": "GPL-3.0",
@@ -46,8 +45,8 @@
                 "name": "phpversion",
                 "type": "string",
                 "ask": {
-                    "en": "Choose a PHP version you want to use for your app",
-                    "fr": "Choisissez une version PHP que vous souhaitez utiliser pour votre application"
+                    "en": "Choose a PHP version you want to use for your app. Yes, 8 is better",
+                    "fr": "Choisissez une version PHP que vous souhaitez utiliser pour votre application. Oui, la 8 est meilleure"
                 },
                 "choices" : ["7.4", "8.0"],
                 "default" : "8.0"
