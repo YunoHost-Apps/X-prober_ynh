@@ -19,7 +19,7 @@
     "license": "GPL-3.0",
     "maintainer": {
         "name": "jarod5001",
-        "email": "amir@abdelhedi.com.tn"
+        "email": ""
     },
     "requirements": {
         "yunohost": ">= 4.3.0"
@@ -28,7 +28,7 @@
     "services": [
         "nginx",
         "php8.0-fpm"
-        
+        "mysql"
     ],
     "arguments": {
         "install" : [
