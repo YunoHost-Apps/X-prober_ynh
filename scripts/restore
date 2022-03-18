@@ -49,9 +49,9 @@ test ! -d $final_path \
 #=================================================
 
 
-ynh_script_progression --message="Reinstalling dependencies..." --weight=2
+# ynh_script_progression --message="Reinstalling dependencies..." --weight=2
 
-ynh_install_app_dependencies "php${phpversion}-fpm"
+# ynh_install_app_dependencies "php${phpversion}-fpm"
 
 
 #=================================================
