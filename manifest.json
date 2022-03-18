@@ -54,7 +54,11 @@
             {
                 "name": "is_public",
                 "type": "boolean",
-                "default": false
+                "default": false,
+                "help": {
+                    "en": "You should leave it private"
+                    "fr": "Vous devriez le laisser privé"
+                         }
             }
             
         ]
