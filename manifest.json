@@ -50,17 +50,7 @@
                 },
                 "choices" : ["7.4", "8.0"],
                 "default" : "8.0"
-            },
-            {
-                "name": "is_public",
-                "type": "boolean",
-                "default": false,
-                "help": {
-                    "en": "You should leave it private",
-                    "fr": "Vous devriez le laisser privé"
-                         }
-            }
-            
+            }            
         ]
     }
 }
