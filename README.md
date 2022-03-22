@@ -42,6 +42,10 @@ https://github.com/kmvan/x-prober/blob/master/README.md
 
 Note that the app works only in public mode for now. 
 
+To do list :
+Add Email send testing.
+Add network speed testing.
+
 ## Documentation and resources
 
 * Official app website: https://prober.inn-studio.com/
