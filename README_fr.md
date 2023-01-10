@@ -22,7 +22,7 @@ This is a probe program for PHP environment. It can show your server information
 
 
 
-**Version incluse :** 8.8~ynh1
+**Version incluse :** 8.16~ynh1
 
 **Démo :** https://prober.inn-studio.com/
 
