@@ -44,13 +44,8 @@
             {
                 "name": "is_public",
                 "type": "boolean",
-                "default": true,
-                "help": {
-                    "en": "Must be set to public to work for now",
-                    "fr": "Vous devriez le laisser public, ne fonctionne pas en mode privé pour l'instant"
-                         }
-            }
-            
+                "default": true
+            } 
         ]
     }
 }
