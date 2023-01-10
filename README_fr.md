@@ -18,10 +18,6 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 This is a probe program for PHP environment. It can show your server information and readable easily.
 
 
-[![X Prober preview](https://raw.githubusercontent.com/kmvan/x-prober/master/screenshots/preview.webp)](https://raw.githubusercontent.com/kmvan/x-prober/master/screenshots/preview.webp)
-
-
-
 **Version incluse :** 8.16~ynh1
 
 **Démo :** https://prober.inn-studio.com/
@@ -33,10 +29,6 @@ This is a probe program for PHP environment. It can show your server information
 ## Avertissements / informations importantes
 
 This is a probe program for PHP environment. It can show your server information and readable easily.
-
-more info here: https://github.com/kmvan/x-prober/blob/master/README.md
-
-Note that the app works only in public mode for now. 
 
 ## Documentations et ressources
 
