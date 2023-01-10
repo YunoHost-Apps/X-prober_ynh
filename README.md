@@ -28,9 +28,7 @@ This is a probe program for PHP environment. It can show your server information
 
 ## Screenshots
 
-![Screenshot of x-prober](./doc/screenshots/03.jpg)
-![Screenshot of x-prober](./doc/screenshots/01.jpg)
-![Screenshot of x-prober](./doc/screenshots/02.jpg)
+![Screenshot of x-prober](./doc/screenshots/screenshot.jpg)
 
 ## Disclaimers / important information
 
