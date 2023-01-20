@@ -6,7 +6,7 @@
         "en": "A probe program for PHP environment",
         "fr": "A probe program for PHP environment"
     },
-    "version": "8.8~ynh1",
+    "version": "8.16~ynh1",
     "url": "https://prober.inn-studio.com/",
     "upstream": {
         "license": "GPL-3.0",
@@ -21,7 +21,7 @@
         "email": ""
     },
     "requirements": {
-        "yunohost": ">= 4.3.0"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": true,
     "services": [
@@ -41,26 +41,11 @@
                 "example": "/xprober",
                 "default": "/xprober"
             },
-            { 
-                "name": "phpversion",
-                "type": "string",
-                "ask": {
-                    "en": "Choose a PHP version you want to use for your app. Yes, 8 is better",
-                    "fr": "Choisissez une version PHP que vous souhaitez utiliser pour votre application. Oui, la 8 est meilleure"
-                },
-                "choices" : ["7.4", "8.0"],
-                "default" : "8.0"
-            },
             {
                 "name": "is_public",
                 "type": "boolean",
-                "default": true,
-                "help": {
-                    "en": "Must be set to public to work for now",
-                    "fr": "Vous devriez le laisser public, ne fonctionne pas en mode privé pour l'instant"
-                         }
-            }
-            
+                "default": true
+            } 
         ]
     }
 }
