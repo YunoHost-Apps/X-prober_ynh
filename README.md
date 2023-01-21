@@ -26,10 +26,6 @@ This is a probe program for PHP environment. It can show your server information
 
 ![Screenshot of x-prober](./doc/screenshots/screenshot.jpg)
 
-## Disclaimers / important information
-
-This is a probe program for PHP environment. It can show your server information and readable easily.
-
 ## Documentation and resources
 
 * Official app website: <https://prober.inn-studio.com/>

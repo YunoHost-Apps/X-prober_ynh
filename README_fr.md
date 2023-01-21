@@ -5,15 +5,15 @@ It shall NOT be edited by hand.
 
 # x-prober pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/x-prober.svg)](https://dash.yunohost.org/appci/app/x-prober) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/x-prober.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/x-prober.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/x-prober.svg)](https://dash.yunohost.org/appci/app/x-prober) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/x-prober.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/x-prober.maintain.svg)  
 [![Installer x-prober avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=x-prober)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer x-prober rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer x-prober rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 This is a probe program for PHP environment. It can show your server information and readable easily.
 
@@ -22,19 +22,15 @@ This is a probe program for PHP environment. It can show your server information
 
 **Démo :** https://prober.inn-studio.com/
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de x-prober](./doc/screenshots/screenshot.jpg)
-
-## Avertissements / informations importantes
-
-This is a probe program for PHP environment. It can show your server information and readable easily.
+![Capture d’écran de x-prober](./doc/screenshots/screenshot.jpg)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://prober.inn-studio.com/>
+* Site officiel de l’app : <https://prober.inn-studio.com/>
 * Documentation officielle utilisateur : <https://github.com/kmvan/x-prober>
-* Dépôt de code officiel de l'app : <https://github.com/kmvan/x-prober>
+* Dépôt de code officiel de l’app : <https://github.com/kmvan/x-prober>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_x-prober>
 * Signaler un bug : <https://github.com/YunoHost-Apps/x-prober_ynh/issues>
 
@@ -50,4 +46,4 @@ ou
 sudo yunohost app upgrade x-prober -u https://github.com/YunoHost-Apps/x-prober_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
