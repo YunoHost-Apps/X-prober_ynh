@@ -3,8 +3,8 @@
     "id": "x-prober",
     "packaging_format": 1,
     "description": {
-        "en": "A probe program for PHP environment",
-        "fr": "A probe program for PHP environment"
+        "en": "Probe program for PHP environment",
+        "fr": "Programme de test pour l'environnement PHP"
     },
     "version": "8.16~ynh1",
     "url": "https://prober.inn-studio.com/",
