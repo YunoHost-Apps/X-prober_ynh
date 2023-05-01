@@ -4,12 +4,12 @@
 # COMMON VARIABLES
 #=================================================
 
-YNH_PHP_VERSION="8.0"
+#REMOVEME? YNH_PHP_VERSION="8.0"
 
-php_dependencies="php$YNH_PHP_VERSION-fpm"
+#REMOVEME? php_dependencies="php$YNH_PHP_VERSION-fpm"
 
 # dependencies used by the app (must be on a single line)
-pkg_dependencies="$php_dependencies"
+#REMOVEME? pkg_dependencies="$php_dependencies"
 
 #=================================================
 # PERSONAL HELPERS
