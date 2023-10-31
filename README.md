@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # x-prober for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/x-prober.svg)](https://dash.yunohost.org/appci/app/x-prober) ![Working status](https://ci-apps.yunohost.org/ci/badges/x-prober.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/x-prober.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/x-prober.svg)](https://dash.yunohost.org/appci/app/x-prober) ![Working status](https://ci-apps.yunohost.org/ci/badges/x-prober.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/x-prober.maintain.svg)
+
 [![Install x-prober with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=x-prober)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -31,7 +32,7 @@ This is a probe program for PHP environment. It can show your server information
 * Official app website: <https://prober.inn-studio.com/>
 * Official user documentation: <https://github.com/kmvan/x-prober>
 * Upstream app code repository: <https://github.com/kmvan/x-prober>
-* YunoHost documentation for this app: <https://yunohost.org/app_x-prober>
+* YunoHost Store: <https://apps.yunohost.org/app/x-prober>
 * Report a bug: <https://github.com/YunoHost-Apps/x-prober_ynh/issues>
 
 ## Developer info
