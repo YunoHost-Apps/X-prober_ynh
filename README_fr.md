@@ -32,7 +32,7 @@ This is a probe program for PHP environment. It can show your server information
 * Site officiel de l’app : <https://prober.inn-studio.com/>
 * Documentation officielle utilisateur : <https://github.com/kmvan/x-prober>
 * Dépôt de code officiel de l’app : <https://github.com/kmvan/x-prober>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_x-prober>
+* YunoHost Store: <https://apps.yunohost.org/app/x-prober>
 * Signaler un bug : <https://github.com/YunoHost-Apps/x-prober_ynh/issues>
 
 ## Informations pour les développeurs
