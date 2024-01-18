@@ -1,7 +1,0 @@
-SOURCE_URL=https://github.com/kmvan/x-prober/releases/download/8.16/prober.php
-SOURCE_SUM=06691c50cd72bf2b19ecc2169486a582334f18d7070bbe5ae8c402e87c0a6c6c
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=php
-SOURCE_IN_SUBDIR=false
-SOURCE_FILENAME=prober.php
-SOURCE_EXTRACT=false
