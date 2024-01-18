@@ -1,0 +1,61 @@
+packaging_format = 2
+
+id = "x-prober"
+name = "x-prober"
+description.en = "Probe program for PHP environment"
+description.fr = "Programme de test pour l'environnement PHP"
+
+version = "8.17~ynh1"
+
+maintainers = ["jarod5001"]
+
+[upstream]
+license = "GPL-3.0"
+website = "https://prober.inn-studio.com/"
+demo = "https://prober.inn-studio.com/"
+userdoc = "https://github.com/kmvan/x-prober"
+code = "https://github.com/kmvan/x-prober"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+
+sso = false
+
+disk = "50M"
+ram.build = "900M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/xprober"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/kmvan/x-prober/releases/download/8.17/prober.php"
+        sha256 = "2f3a7f6159d1329e3c9b63edd3e34082c72a155774f396418a34a56a81f1184a"
+        in_subdir = false
+        extract = false
+        rename = "prober.php"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "php8.2-fpm"
+    
