@@ -47,6 +47,7 @@ ram.runtime = "50M"
         sha256 = "06691c50cd72bf2b19ecc2169486a582334f18d7070bbe5ae8c402e87c0a6c6c"
         in_subdir = false
         extract = false
+        SOURCE_FILENAME="prober.php"
 
     [resources.system_user]
 
