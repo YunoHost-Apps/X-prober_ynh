@@ -16,7 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-This is a probe program for PHP environment. It can show your server information and readable easily.
+Il s'agit d'un programme de sonde pour l'environnement PHP. Il peut afficher les informations de votre serveur et être facilement lisible.
 
 
 **Version incluse :** 8.17~ynh1
