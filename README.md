@@ -19,7 +19,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 This is a probe program for PHP environment. It can show your server information and readable easily.
 
 
-**Shipped version:** 8.16~ynh1
+**Shipped version:** 8.17~ynh1
 
 **Demo:** https://prober.inn-studio.com/
 
