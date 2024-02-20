@@ -48,6 +48,7 @@ ram.runtime = "50M"
         in_subdir = false
         extract = false
         rename = "prober.php"
+        autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]
 
