@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # x-prober pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/x-prober.svg)](https://dash.yunohost.org/appci/app/x-prober) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/x-prober.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/x-prober.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/x-prober.svg)](https://ci-apps.yunohost.org/ci/apps/x-prober/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/x-prober.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/x-prober.maintain.svg)
 
 [![Installer x-prober avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=x-prober)
 
@@ -19,7 +19,7 @@ Il NE doit PAS être modifié à la main.
 Il s'agit d'un programme de sonde pour l'environnement PHP. Il peut afficher les informations de votre serveur et être facilement lisible.
 
 
-**Version incluse :** 8.17~ynh1
+**Version incluse :** 8.18~ynh1
 
 **Démo :** <https://prober.inn-studio.com/>
 
