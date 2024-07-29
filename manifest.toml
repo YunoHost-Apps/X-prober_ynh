@@ -13,7 +13,6 @@ maintainers = ["jarod5001"]
 license = "GPL-3.0"
 website = "https://prober.inn-studio.com/"
 demo = "https://prober.inn-studio.com/"
-userdoc = "https://github.com/kmvan/x-prober"
 code = "https://github.com/kmvan/x-prober"
 
 [integration]
