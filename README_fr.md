@@ -30,7 +30,6 @@ Il s'agit d'un programme de sonde pour l'environnement PHP. Il peut afficher les
 ## Documentations et ressources
 
 - Site officiel de l’app : <https://prober.inn-studio.com/>
-- Documentation officielle utilisateur : <https://github.com/kmvan/x-prober>
 - Dépôt de code officiel de l’app : <https://github.com/kmvan/x-prober>
 - YunoHost Store : <https://apps.yunohost.org/app/x-prober>
 - Signaler un bug : <https://github.com/YunoHost-Apps/x-prober_ynh/issues>
