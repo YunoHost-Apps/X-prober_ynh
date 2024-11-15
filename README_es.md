@@ -19,7 +19,7 @@ No se debe editar a mano.
 This is a probe program for PHP environment. It can show your server information and readable easily.
 
 
-**Versión actual:** 8.18~ynh1
+**Versión actual:** 8.18~ynh2
 
 **Demo:** <https://prober.inn-studio.com/>
 
@@ -36,7 +36,7 @@ This is a probe program for PHP environment. It can show your server information
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/x-prober_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/x-prober_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
