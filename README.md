@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # x-prober for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/x-prober.svg)](https://ci-apps.yunohost.org/ci/apps/x-prober/) ![Working status](https://ci-apps.yunohost.org/ci/badges/x-prober.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/x-prober.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/x-prober)](https://ci-apps.yunohost.org/ci/apps/x-prober/)
+![Working status](https://apps.yunohost.org/badge/state/x-prober)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/x-prober)
 
 [![Install x-prober with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=x-prober)
 
@@ -19,7 +21,7 @@ It shall NOT be edited by hand.
 This is a probe program for PHP environment. It can show your server information and readable easily.
 
 
-**Shipped version:** 8.18~ynh2
+**Shipped version:** 8.19~ynh1
 
 **Demo:** <https://prober.inn-studio.com/>
 
