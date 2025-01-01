@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # x-prober YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/x-prober.svg)](https://ci-apps.yunohost.org/ci/apps/x-prober/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/x-prober.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/x-prober.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/x-prober)](https://ci-apps.yunohost.org/ci/apps/x-prober/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/x-prober)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/x-prober)
 
 [![Instalatu x-prober YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=x-prober)
 
@@ -19,7 +21,7 @@ EZ editatu eskuz.
 This is a probe program for PHP environment. It can show your server information and readable easily.
 
 
-**Paketatutako bertsioa:** 8.18~ynh2
+**Paketatutako bertsioa:** 8.19~ynh1
 
 **Demoa:** <https://prober.inn-studio.com/>
 
