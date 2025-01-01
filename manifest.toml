@@ -42,7 +42,8 @@ ram.runtime = "50M"
         [resources.sources.main]
         url = "https://github.com/kmvan/x-prober/releases/download/8.19/prober.php"
         sha256 = "027558d0750664ee0616604cacb4fdd63723acdb8bfc2115a941945a38840643"
-        format = "script"
+        format = "whatever"
+        extract = false
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset = "prober\\.php"
 
