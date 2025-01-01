@@ -44,6 +44,7 @@ ram.runtime = "50M"
         sha256 = "027558d0750664ee0616604cacb4fdd63723acdb8bfc2115a941945a38840643"
         format = "whatever"
         extract = false
+        rename = "prober.php"
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset = "prober\\.php"
 
