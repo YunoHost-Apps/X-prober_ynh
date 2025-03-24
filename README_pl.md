@@ -21,7 +21,7 @@ Nie powinno być ono edytowane ręcznie.
 This is a probe program for PHP environment. It can show your server information and readable easily.
 
 
-**Dostarczona wersja:** 8.19~ynh1
+**Dostarczona wersja:** 8.20~ynh1
 
 **Demo:** <https://prober.inn-studio.com/>
 
