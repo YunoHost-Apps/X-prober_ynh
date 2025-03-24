@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # x-prober para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/x-prober.svg)](https://ci-apps.yunohost.org/ci/apps/x-prober/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/x-prober.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/x-prober.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/x-prober)](https://ci-apps.yunohost.org/ci/apps/x-prober/)
+![Estado funcional](https://apps.yunohost.org/badge/state/x-prober)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/x-prober)
 
 [![Instalar x-prober con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=x-prober)
 
@@ -36,7 +38,7 @@ This is a probe program for PHP environment. It can show your server information
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/x-prober_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/x-prober_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 

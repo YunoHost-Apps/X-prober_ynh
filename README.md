@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # x-prober for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/x-prober.svg)](https://ci-apps.yunohost.org/ci/apps/x-prober/) ![Working status](https://ci-apps.yunohost.org/ci/badges/x-prober.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/x-prober.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/x-prober)](https://ci-apps.yunohost.org/ci/apps/x-prober/)
+![Working status](https://apps.yunohost.org/badge/state/x-prober)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/x-prober)
 
 [![Install x-prober with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=x-prober)
 

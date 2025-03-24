@@ -5,7 +5,9 @@
 
 # YunoHost 上的 x-prober
 
-[![集成程度](https://dash.yunohost.org/integration/x-prober.svg)](https://ci-apps.yunohost.org/ci/apps/x-prober/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/x-prober.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/x-prober.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/x-prober)](https://ci-apps.yunohost.org/ci/apps/x-prober/)
+![工作状态](https://apps.yunohost.org/badge/state/x-prober)
+![维护状态](https://apps.yunohost.org/badge/maintained/x-prober)
 
 [![使用 YunoHost 安装 x-prober](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=x-prober)
 
