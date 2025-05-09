@@ -5,7 +5,7 @@ name = "x-prober"
 description.en = "Probe program for PHP environment"
 description.fr = "Programme de test pour l'environnement PHP"
 
-version = "8.20~ynh1"
+version = "8.20~ynh2"
 
 maintainers = ["jarod5001"]
 
