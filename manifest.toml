@@ -5,7 +5,7 @@ name = "x-prober"
 description.en = "Probe program for PHP environment"
 description.fr = "Programme de test pour l'environnement PHP"
 
-version = "9.1.1~ynh1"
+version = "10.0.0~ynh1"
 
 maintainers = ["jarod5001"]
 
@@ -16,13 +16,12 @@ demo = "https://prober.inn-studio.com/"
 code = "https://github.com/kmvan/x-prober"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.40"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
@@ -43,8 +42,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/kmvan/x-prober/releases/download/9.1.1/prober.php"
-        sha256 = "3a1c46d9b9ae70bbce1b254ff97668b1170af838ad63dfa2397ea0a8a995362a"
+        url = "https://github.com/kmvan/x-prober/releases/download/10.0.0/prober.php"
+        sha256 = "2ca58b29c37af12b95ad1c8e91843a957345c9fca9e5b992fbcac9e5131edc6c"
         format = "whatever"
         extract = false
         rename = "prober.php"
@@ -60,5 +59,5 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.3-fpm"
+    packages = "php8.5-fpm"
     
