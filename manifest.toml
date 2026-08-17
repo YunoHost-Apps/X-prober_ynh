@@ -5,7 +5,7 @@ name = "x-prober"
 description.en = "Probe program for PHP environment"
 description.fr = "Programme de test pour l'environnement PHP"
 
-version = "10.0.2~ynh1"
+version = "10.0.4~ynh1"
 
 maintainers = ["jarod5001"]
 
@@ -42,8 +42,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/kmvan/x-prober/releases/download/10.0.2/prober.php"
-        sha256 = "ceb7a0fed4f8e462d72b44a4c69bb780c08f5c86f3671b6b581696452a34b98a"
+        url = "https://github.com/kmvan/x-prober/releases/download/10.0.4/prober.php"
+        sha256 = "48ce2539685c9fb19acdf1a373fd9d35847c432501986d43d286eadf5c34488e"
         format = "whatever"
         extract = false
         rename = "prober.php"
